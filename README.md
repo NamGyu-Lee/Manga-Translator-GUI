@@ -1,5 +1,8 @@
 # Manga-Translator-GUI
 
+## What is this?
+The goal of this project is to enable general users to easily translate the text in images within a folder into their desired language, all at once.
+
 This tool is based on the Batch operation support provided by the Docker image from the [zyddnys/manga-image-translator](https://github.com/zyddnys/manga-image-translator) project.
 
 The project is designed to enable general users to access and use the Batch operation feature more easily.  
