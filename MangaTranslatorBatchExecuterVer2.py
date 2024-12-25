@@ -107,7 +107,7 @@ def run_docker_command():
         f"{'wsl ' if docker_env == 'wsl' else ''}docker run --cpus={cpus} "
         f"{'--gpus=all ' if use_gpu else ''} -v \"{input_path_docker}:/app/translatetarget\""
         f" -v \"{translated_path_docker}:/app/translatetarget-translated\" --ipc=host --rm "
-        "zyddnys/manga-image-translator:main --mode=batch -i=/app/translatetarget"
+        "fromwhiteash/image-translator-forked:v1.0 --mode=batch -i=/app/translatetarget"
         f" -l={lang} --translator={translator}"
         f" {direction_command}"
         f"{' --use-gpu ' if use_gpu else ''} --detector={detector_type}"
