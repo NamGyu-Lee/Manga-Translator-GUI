@@ -37,7 +37,7 @@ If WSL2 is installed as a Non-Distro setup without Docker Desktop, or if the PC 
 ```
 
 3. Run the executable file included in this project.
-   exe file here : [Download](https://drive.google.com/file/d/1Uyv9NVWoMzUYOJrBn_el9n0lAYrg7FqG/view)
+   exe file here : [Download Exe V1.01](https://drive.google.com/file/d/16nV4Y_yPj-iZ0YOG-2gCuHwpVnBBxuqJ/view?usp=drive_link)
 4. When selecting a folder, **ensure the folder path does not contain spaces**, as this can cause the program to malfunction.
 
 ---
