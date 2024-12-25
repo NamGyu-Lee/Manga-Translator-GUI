@@ -28,10 +28,17 @@ If WSL2 is installed as a Non-Distro setup without Docker Desktop, or if the PC 
 ---
 
 ## 3. Execution and Precautions
+1. install docker-desktop
 
-1. Run the executable file included in this project.
+2. pulling the docker image by zyddnys
+   Open the Command Prompt and enter the following:
+```bash
+ docker pull zyddnys/manga-image-translator:main
+```
+
+3. Run the executable file included in this project.
    exe file here : [Download](https://drive.google.com/file/d/1Uyv9NVWoMzUYOJrBn_el9n0lAYrg7FqG/view)
-2. When selecting a folder, **ensure the folder path does not contain spaces**, as this can cause the program to malfunction.
+4. When selecting a folder, **ensure the folder path does not contain spaces**, as this can cause the program to malfunction.
 
 ---
 
